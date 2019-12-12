@@ -7,17 +7,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+          TRUDIGI COMMUNITY
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Karena belajar di kelas saja tidak pernah cukup
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Di TRUDIGI kami memberikan lingkungan yang kompetitif dan professional untuk membangun skill IT dan teamwork dengan terjun ke dalam masalah bisnis.
+        </p>
       </header>
     </div>
   );
