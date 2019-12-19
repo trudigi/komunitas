@@ -1,0 +1,20 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{page.lang | default: "id"}}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main aria-label="Content">
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+
+</html>

@@ -1,0 +1,34 @@
+---
+layout: compress
+---
+
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{page.lang | default: "id"}}">
+
+{% include head.html %}
+
+<body>
+
+
+  <main aria-label="Content">
+
+    <div class="site-logo">
+      <div class="wrapper">
+        {% include logo.svg %}
+      </div>
+    </div>
+
+    <div class="home wrapper center">
+
+      {{ content }}
+
+    </div>
+  </main>
+
+  {% include footer.html %}
+</body>
+
+</html>

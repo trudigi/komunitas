@@ -1,0 +1,15 @@
+sass:
+  style: compressed
+exclude:
+- CNAME
+- README.md
+- img/
+title: TRUDIGI Community
+permalink: /:title
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+      is_post: true
