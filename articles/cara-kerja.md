@@ -1,6 +1,6 @@
 ---
 title: Bagaimana Cara Kerja Trudigi?
-excerpt: Deskripsi singkat bagaimana trudigi menggaet project, membagi team, dan mengerjakan project tepat waktu.
+excerpt:  Mengenal cara TRUDIGI mengelola pasar dan komunitas
 ---
 
 ## Komitmen adalah Misi Kami
