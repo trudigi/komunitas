@@ -1,0 +1,33 @@
+- name: Pengenalan
+  excerpt: Pengenalan tentang TRUDIGI
+  articles:
+  - name: Apa itu TRUDIGI?
+    excerpt: Mengenal TRUDIGI lebih dekat
+    href: articles/perkenalan
+  - name: Bagaimana cara kerja TRUDIGI?
+    excerpt: Mengenal TRUDIGI mengelola pasar dan komunitas
+    href: articles/cara-kerja
+- name: Best Practices
+  excerpt: Tips berperan aktif di TRUDIGI
+  articles:
+  - name: Dear Leader Project
+    excerpt: Bagaimana TRUDIGI mengerti bahwa kunci kesuksesan tim berasal dari Koordinasi Tim yang hebat
+    href: articles/leader-project
+  - name: Newbie Take Action
+    excerpt: Bagaimana Trudigi tahu caranya mengarahkan member baru agar aktif dan berani berpartisipasi membangun perubahan
+    href: articles/newbie-take-action
+  - name: Negosiator Hebat
+    excerpt: Bagaimana Trudigi dapat menarik minat klien untuk percaya menggunakan Jasa Komunitas dalam lingkup Bisnis dan Profesional
+    href: articles/negosiator-hebat
+- name: Guidelines
+  excerpt: Artikel Petunjuk Formal
+  articles:
+  - name: Community Guideline
+    excerpt: Peraturan Formal TRUDIGI Community
+    href: articles/community-guideline
+  - name: Pricesheet
+    excerpt: Tabel Harga TRUDIGI
+    href: articles/pricesheet
+  - name: Terms of Service
+    excerpt: Ketentuan Tertulis antara TRUDIGI dan Klien
+    href: articles/terms-of-service

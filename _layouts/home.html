@@ -2,9 +2,6 @@
 layout: compress
 ---
 
----
-layout: compress
----
 <!DOCTYPE html>
 <html lang="{{page.lang | default: "id"}}">
 
@@ -23,7 +20,7 @@ layout: compress
 
     <div class="home wrapper center">
 
-      {{ content }}
+      {{ content | markdownify }}
 
     </div>
   </main>

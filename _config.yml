@@ -9,7 +9,8 @@ permalink: /:title
 defaults:
   -
     scope:
-      type: "posts"
+      type: "pages"
+      path: "articles"
     values:
       layout: "post"
       is_post: true

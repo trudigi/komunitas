@@ -4,31 +4,37 @@
 
 :root {
     --scheme: #c70;
+    --scheme-dark: #530;
+    --scheme-darker: #310;
 }
 
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans', 'Open Sans', sans-serif;
     overflow-x: hidden;
 }
 
 .site-header {
     padding: 1em;
-    background: #310;
+    background: var(--scheme-darker);
     color: white;
 }
 
 .site-footer {
     padding: 1em;
     background: whitesmoke;
-    color: #310;
+    color: var(--scheme-darker);
     text-align: right;
 }
 
 .site-logo {
-    background: linear-gradient(180deg, #310, #730);
+    background: linear-gradient(180deg, var(--scheme-darker), var(--scheme));
     padding: 3em 0;
-    margin-bottom: 3em;
+}
+
+
+.page-content, .home {
+    background: white;
 }
 
 a {
@@ -36,24 +42,27 @@ a {
     text-decoration: none;
 }
 
+hr {
+    border: 0;
+    border-top: 1px solid var(--scheme);
+}
+
 .wrapper {
-    max-width: 900px;
+    max-width: 640px;
+    padding: 2em;
     margin: auto;
 }
 
-.center {
+.center, h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
 main {
     min-height: calc(100vh - 7em);
+    background: var(--scheme);
 }
 
-@media (max-width: 900px) {
-
-    .wrapper {
-        max-width: 600px;
-    }
-
+.post {
+    line-height: 1.7;
+    text-align: justify;
 }
-
